@@ -18,8 +18,7 @@
         "gulp-cli": "^2.3.0",
         "mozjpeg": "^8.0.0",
         "node-notifier": "^10.0.1",
-        "optipng-bin": "^9.0.0",
-        "tailwindcss": "^3.2.7"
+        "optipng-bin": "^9.0.0"
     },
     "devDependencies": {
         "browser-sync": "^2.27.9",
@@ -44,6 +43,7 @@
         "gulp-webpcss": "^1.1.1",
         "sass": "^1.51.0",
         "swiper": "^8.1.4",
+        "tailwindcss": "^3.3.1",
         "webp-converter": "^2.2.3",
         "webpack": "^5.72.0",
         "webpack-stream": "^7.0.0"

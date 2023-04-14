@@ -13,11 +13,10 @@ module.exports = {
         },
         extend: {
             colors: {
-                boxShadow: {
-                    '2xl': '0px 4px 4px rgba(45, 122, 53, 0.15)',
-                    '3xl': '0px 4px 4px rgba(0, 0, 0, 0.05)',
-                },
                 peach: '#FFF9E8',
+                purpure: '#F0ECFF',
+                yellow: '#FFD338',
+                dark: '#222222',
             },
             screens: {
                 mobile: '320px',
@@ -112,7 +111,7 @@ module.exports = {
             addComponents({
                 '.title': {
                     fontWeight: 'normal',
-                    fontSize: `68px`,
+                    fontSize: `36px`,
                     lineHeight: '1',
                     color: '#222222'
                 },
@@ -120,14 +119,13 @@ module.exports = {
                 '.subtitle': {
                     fontWeight: 'normal',
                     fontSize: `20px`,
-                    lineHeight: '2',
+                    lineHeight: '1',
                     color: '#555555'
                 },
                 '.button': {
                     display: 'block',
                     width: 'fit-content',
                     padding: '15px 50px 18px',
-                    marginTop: '50px',
                     borderRadius: '8px',
                     fontWeight: 'normal',
                     fontSize: `16px`,
@@ -139,7 +137,6 @@ module.exports = {
                 '.button_sign': {
                     display: 'block',
                     width: 'fit-content',
-                    padding: '10px 31px',
                     borderRadius: '8px',
                     fontWeight: 'normal',
                     fontSize: `16px`,
@@ -148,7 +145,10 @@ module.exports = {
                     background: '#FFFFFF',
                     cursor: 'pointer',
                     borderWidth: '1px',
-                }
+                },
+                '.swiper-pagination-bullet': {
+                    background: 'yellow',
+                },
             })
         })
     ]

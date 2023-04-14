@@ -12,6 +12,9 @@ module.exports = {
             },
         },
         extend: {
+            boxShadow: {
+                'md': '4px 4px 0px rgba(1.0, 0.83, 0.22, 1.0)',
+              },
             colors: {
                 peach: '#FFF9E8',
                 purpure: '#F0ECFF',
